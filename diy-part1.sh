@@ -11,7 +11,16 @@
 #
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+# luci-theme-infinityfreedom
+git clone -b master --single-branch https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/new/infinityfreedom
+
+# 网易云解锁
+git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic package/new/luci-app-unblockneteasemusic
+
+# SeverChan
+git clone -b master --single-branch https://github.com/tty228/luci-app-serverchan package/new/luci-app-serverchan
