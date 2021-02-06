@@ -24,3 +24,6 @@ git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic packag
 
 # SeverChan
 git clone -b master --single-branch https://github.com/tty228/luci-app-serverchan package/new/luci-app-serverchan
+
+#OpenClash
+git clone -b master --single-branch https://github.com/vernesong/OpenClash package/new/luci-app-openclash
